@@ -12,16 +12,16 @@ The application was deployed on **Netlify** and later converted into native iOS 
   - Each task is assigned a unique UUID to ensure accurate identification and state updates.
 
 - **Toggle Completion**
- - Clicking a task toggles a completed class.
- - Completed tasks display grayed-out text with a line-through effect for visual clarity.
+  - Clicking a task toggles a completed class.
+  - Completed tasks display grayed-out text with a line-through effect for visual clarity.
 
 - **Edit Tasks**
- - Users can update tasks inline.
- - The edit icon replaces the task view with an input field pre-filled with the current task text.
+  - Users can update tasks inline.
+  - The edit icon replaces the task view with an input field pre-filled with the current task text.
 
 - Delete Tasks
- - Tasks can be removed using a trash icon.
- - Deletion is handled efficiently using ID-based filtering.
+  - Tasks can be removed using a trash icon.
+  - Deletion is handled efficiently using ID-based filtering.
 
 ## UI & Design
 - The interface is minimal and user-friendly.
