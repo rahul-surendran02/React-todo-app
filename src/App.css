@@ -14,7 +14,7 @@ body {
   align-items: center;
   padding: 1rem;
   min-height: 100vh;
-  background: #056679;
+  background: #8686ac;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,12 +44,12 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #056679;
+  border: 1px solid #8686acca;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   width: 300px;
-  color: #a4d0d9;
+  color: #e5e5ffba;
 }
 
 .todo-input::placeholder {
@@ -57,26 +57,26 @@ h1 {
 }
 
 .todo-btn {
-  background: #056679;
-  color: #a4d0d9;
+  background: #8686ac;
+  color: #ededff;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
 }
 
 .todo-btn:hover {
-  background: #056679ca;
+  background: #8686acca;
 }
 .todo-btn:active {
-  background: #056679;
+  background: #8686ac;
 }
 
 .Todo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #056679;
-  color: #a4d0d9;
+  background: #8686ac;
+  color: #ededff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
@@ -88,11 +88,11 @@ h1 {
 }
 
 .Todo:hover {
-  background: #056679ca;
+  background: #8686acca;
 }
 
 .Todo:active {
-  background: #056679;
+  background: #8686ac;
 }
 
 .icon {
@@ -119,12 +119,12 @@ h1 {
 }
 
 .incompleted {
-  color: #a4d0d9;
+  color: #ededff;
   cursor: pointer;
 }
 
 .completed {
-  color: #a4d0d963;
+  color: #c7c7e3c8;
   text-decoration: line-through;
   cursor: pointer;
 }
