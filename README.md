@@ -7,30 +7,38 @@ This project demonstrates practical implementation of React fundamentals includi
 The application was deployed on **Netlify** and later converted into native iOS and Android apps using **Median.co**.
 
 ## Features
-1. **Add Tasks**
+- **Add Tasks**
 
-- Users can add new tasks using a controlled input form.
-- Each task is assigned a unique UUID to ensure accurate identification and state updates.
+ - Users can add new tasks using a controlled input form.
+ - Each task is assigned a unique UUID to ensure accurate identification and state updates.
 
-2. **Toggle Completion**
+- **Toggle Completion**
 
-- Clicking a task toggles a completed class.
-- Completed tasks display grayed-out text with a line-through effect for visual clarity.
+ - Clicking a task toggles a completed class.
+ - Completed tasks display grayed-out text with a line-through effect for visual clarity.
 
-3. **Edit Tasks**
+- **Edit Tasks**
 
-- Users can update tasks inline.
-- The edit icon replaces the task view with an input field pre-filled with the current task text.
+ - Users can update tasks inline.
+ - The edit icon replaces the task view with an input field pre-filled with the current task text.
 
-4. Delete Tasks
+- Delete Tasks
 
-- Tasks can be removed using a trash icon.
-- Deletion is handled efficiently using ID-based filtering.
+ - Tasks can be removed using a trash icon.
+ - Deletion is handled efficiently using ID-based filtering.
 
 ## UI & Design
 
 - The interface is minimal and user-friendly.
 - Font Awesome icons are used for edit and delete actions to improve visual communication.
+
+## Tech Stack
+
+- React
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Netlify
 
 ## Deployment
 
@@ -48,6 +56,6 @@ The application was deployed on **Netlify** and later converted into native iOS 
 
 - Dynamic rendering and conditional logic
 
-Production deployment workflow
+- Production deployment workflow
 
-Web-to-mobile app conversion process
+- Web-to-mobile app conversion process
