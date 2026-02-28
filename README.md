@@ -1,4 +1,4 @@
-# React Todo List App
+# React Todo App
 
 A fully functional Todo List application built with **React** that supports complete **CRUD** operations and is deployed as both a web and native mobile application.
 
