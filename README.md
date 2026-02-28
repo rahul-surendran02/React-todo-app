@@ -8,8 +8,8 @@ The application was deployed on **Netlify** and later converted into native iOS 
 
 ## Features
 - **Add Tasks**
- - Users can add new tasks using a controlled input form.
- - Each task is assigned a unique UUID to ensure accurate identification and state updates.
+  - Users can add new tasks using a controlled input form.
+  - Each task is assigned a unique UUID to ensure accurate identification and state updates.
 
 - **Toggle Completion**
  - Clicking a task toggles a completed class.
