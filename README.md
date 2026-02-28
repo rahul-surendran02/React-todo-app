@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# React Todo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional Todo List application built with **React** that supports complete **CRUD** operations and is deployed as both a web and native mobile application.
 
-## Available Scripts
 
-In the project directory, you can run:
+This project demonstrates practical implementation of React fundamentals including component reusability, controlled forms, state management, conditional rendering, and dynamic list updates.
+The application was deployed on **Netlify** and later converted into native iOS and Android apps using **Median.co**.
 
-### `npm start`
+## Features
+1. **Add Tasks**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Users can add new tasks using a controlled input form.
+- Each task is assigned a unique UUID to ensure accurate identification and state updates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Toggle Completion**
 
-### `npm test`
+- Clicking a task toggles a completed class.
+- Completed tasks display grayed-out text with a line-through effect for visual clarity.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Edit Tasks**
 
-### `npm run build`
+- Users can update tasks inline.
+- The edit icon replaces the task view with an input field pre-filled with the current task text.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Delete Tasks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Tasks can be removed using a trash icon.
+- Deletion is handled efficiently using ID-based filtering.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## UI & Design
 
-### `npm run eject`
+- The interface is minimal and user-friendly.
+- Font Awesome icons are used for edit and delete actions to improve visual communication.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Web Application**: Deployed on Netlify
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Mobile Applications**: Converted to native iOS and Android apps using Median.co
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Median.co enabled app publishing by transforming the hosted web app into native apps through a webview bridge and plugin customization.
 
-## Learn More
+## Learning Outcomes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React state management and component architecture
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Controlled form handling
 
-### Code Splitting
+- Dynamic rendering and conditional logic
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Production deployment workflow
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Web-to-mobile app conversion process
