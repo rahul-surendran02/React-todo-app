@@ -1,7 +1,7 @@
-# React Todo App
+# React To-Do App
 🔗 You can access the deployed application here: [https://your-netlify-url.netlify.app](https://blitz-todoapp.netlify.app/)
 
-A fully functional simple Todo List application built with **React** that supports complete **CRUD** operations and is deployed as both a web and native mobile application.
+A fully functional simple todo list application built with **React** that supports complete **CRUD** operations and is deployed as both a web and native mobile application.
 
 This project demonstrates practical implementation of React fundamentals including component reusability, controlled forms, state management, conditional rendering, and dynamic list updates.
 The application was deployed on **Netlify** and later converted into native iOS and Android apps using **Median.co**.
